@@ -1,7 +1,6 @@
+/*                      */
 /* –– Robert Zuniga ––> */
-/**
-  Float Layout Activity
- **/
+/*                      */
 
 * {
   box-sizing: border-box;
@@ -9,30 +8,30 @@
 }
 
 body {
-  font-size: 12px;
-  line-height: 32px;
-  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777;
+  background: #777;
+  font-size: 18px;
 }
 
 header {
- 
   width:960px;
   height: 75px;
   line-height: 75px;
   margin: auto;
   margin-bottom: 5px;
   color: #333;
-  background: #FFFFFF;
+  background: #ebebeb;
 }
 
-#navigate {
+#mynav {
   width:960px;
   height: 75px;
   line-height: 75px;
   margin: auto;
   margin-bottom: 15px;
   color: #333;
-  background: #FFFFFF;
+  background: #ebebeb;
 }
 
 section {
@@ -41,45 +40,19 @@ section {
   height: 300px;
   margin: auto;
   margin-bottom: 10px;
-  background: #FFA500;
+  background: #ebebeb;
 }
 
-#left {
-
-  float: left;
-  width: 55%;
-  height: 300px;
- /* padding: 20px; */
-  margin-left: 10px;
-  text-decoration-color:darkgray;
-  background: white;
-}
-
-#article {
+#myarticle {
     float: center;
     float: bottom;
     width: 95%;
     height: 175px;
-   /* padding: 20px; */
     margin: auto;
     margin-top: 50px;
-    color:white;
-    background: darkgray;
+    color: #ebebeb;
+    background: #777;
 }
-
-#aside1 {
-  
-  float: right;  
-  width: 35%;
-  height: 300px;
-/*  padding: 20px; */
-  margin-left: 5px;
-  margin-right: 20px;
-  text-decoration-color:darkgray;
-  background: white;
-  border: 1px solid #eee;
-  }
-  
 
 #full {
   width: 960px;
@@ -90,30 +63,29 @@ section {
   background: transparent;
 }
 
-#aside2 {
+#mysection {
   float: left;
   margin-right: 10px;
   width: 60%;
   height: 300px;
-  color:darkgray;
+  color:#777;
   background: white;
-  border: 1px solid #eee;
+ 
 }
 
-#aside2inner {
+#myasideinner {
     float: center;
     float: bottom;
-    width: 95%;
+    width: 495px;
     height: 50px;
     line-height: 50px;
-   /* padding: 20px; */
     margin: auto;
     margin-top: 5px;
-    color:darkgrey;
-    background: white;
+    color:#ebebeb;
+    background:white;
   }
 
-#aside3 {
+#myaside {
     float: right;
     width: 38%;
     height: 300px;
@@ -121,15 +93,15 @@ section {
     padding: 20px;
     margin-left: 30px;
     */
-    color: darkgray;
-    background:white;
-    border: 1px solid #eee;
+    color: #777;
+    background: #ebebee;
   }
 
 footer {
+  clear: both;
   width:960px;
   height: 75px;
   margin: auto;
   line-height: 75px;
-  background: #FFFFFF;
+  background: #ebebeb;
 }
