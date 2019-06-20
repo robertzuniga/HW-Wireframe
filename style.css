@@ -1,1 +1,135 @@
-/* –– comment ––> */
+/* –– Robert Zuniga ––> */
+/**
+  Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  font-size: 12px;
+  line-height: 32px;
+  color: #333;
+}
+
+header {
+ 
+  width:960px;
+  height: 75px;
+  line-height: 75px;
+  margin: auto;
+  margin-bottom: 5px;
+  color: #333;
+  background: #FFFFFF;
+}
+
+#navigate {
+  width:960px;
+  height: 75px;
+  line-height: 75px;
+  margin: auto;
+  margin-bottom: 15px;
+  color: #333;
+  background: #FFFFFF;
+}
+
+section {
+  /* padding: 20px; */
+  width:960px;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 10px;
+  background: #FFA500;
+}
+
+#left {
+
+  float: left;
+  width: 55%;
+  height: 300px;
+ /* padding: 20px; */
+  margin-left: 10px;
+  text-decoration-color:darkgray;
+  background: white;
+}
+
+#article {
+    float: center;
+    float: bottom;
+    width: 95%;
+    height: 175px;
+   /* padding: 20px; */
+    margin: auto;
+    margin-top: 50px;
+    color:white;
+    background: darkgray;
+}
+
+#aside1 {
+  
+  float: right;  
+  width: 35%;
+  height: 300px;
+/*  padding: 20px; */
+  margin-left: 5px;
+  margin-right: 20px;
+  text-decoration-color:darkgray;
+  background: white;
+  border: 1px solid #eee;
+  }
+  
+
+#full {
+  width: 960px;
+  height: 310px;
+  overflow: auto;
+  clear: both;
+  color: #fff;
+  background: transparent;
+}
+
+#aside2 {
+  float: left;
+  margin-right: 10px;
+  width: 60%;
+  height: 300px;
+  color:darkgray;
+  background: white;
+  border: 1px solid #eee;
+}
+
+#aside2inner {
+    float: center;
+    float: bottom;
+    width: 95%;
+    height: 50px;
+    line-height: 50px;
+   /* padding: 20px; */
+    margin: auto;
+    margin-top: 5px;
+    color:darkgrey;
+    background: white;
+  }
+
+#aside3 {
+    float: right;
+    width: 38%;
+    height: 300px;
+    /*
+    padding: 20px;
+    margin-left: 30px;
+    */
+    color: darkgray;
+    background:white;
+    border: 1px solid #eee;
+  }
+
+footer {
+  width:960px;
+  height: 75px;
+  margin: auto;
+  line-height: 75px;
+  background: #FFFFFF;
+}
