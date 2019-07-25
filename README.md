@@ -3,4 +3,4 @@
 
 ## Hi, my name is Sally Sue!
 
-### Sally Sue is better than You!
+### No she's not!
