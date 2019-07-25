@@ -3,4 +3,4 @@
 
 ## Hi, my name is Sally Sue!
 
-### Sally Sue is better than You!
+### Marcus is supreme master of all things code related!
